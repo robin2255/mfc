@@ -62,7 +62,7 @@ async def filter(client: Bot, message: Message):
                 [InlineKeyboardButton(text="📃 Pages 1/1",callback_data="pages")]
             )
             await message.reply_text(
-                f"<b> Here is the result for {message.text}</b>",
+                f"<b> <a href="https://t.me/joinchat/zedjXK0utX00Zjhl"> ഈ ലിങ്കിൽ ക്ലിക്ക് ചെയ്ത് ചാനലിൽ ജോയിൻ ചെയ്‌ത ശേഷം ബട്ടൻ അമർത്തി ഡൗണ്ലോഡ് ചെയ്യുക </a</b>",
                 reply_markup=InlineKeyboardMarkup(buttons)
             )
             return
@@ -78,7 +78,7 @@ async def filter(client: Bot, message: Message):
         )
 
         await message.reply_text(
-                f"<b> Here is the result for {message.text}</b>",
+                f"<b> <a href="https://t.me/joinchat/zedjXK0utX00Zjhl"> ഈ ലിങ്കിൽ ക്ലിക്ക് ചെയ്ത് ചാനലിൽ ജോയിൻ ചെയ്‌ത ശേഷം ബട്ടൻ അമർത്തി ഡൗണ്ലോഡ് ചെയ്യുക </a}</b>",
                 reply_markup=InlineKeyboardMarkup(buttons)
             )    
 
